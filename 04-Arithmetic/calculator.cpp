@@ -4,17 +4,27 @@ int main()
 {
 	int zahl1;
 	int zahl2;
-	int ergebnis;
+	int summe;
+	int differenz;
+	int produkt;
 
-	std::cout << "geben sie die erste Zahl hier ein: ";
+
+	std::cout << "geben sie eine zahl ein: ";
 	std::cin >> zahl1;
 
-	std::cout << "geben sie ihere zweite Zahl hier ein: ";
+	std::cout << "geben sie ihre zweite Zahl ein: ";
 	std::cin >> zahl2;
 
-	ergebnis = zahl1 + zahl2;
-	std::cout << "Das Ergebnis ist: " << ergebnis <<"\n";
+	summe = zahl1 + zahl2;
+	differenz = zahl1 - zahl2;
+	produkt = zahl1 * zahl2;
 
-	return 0;
+	std::cout << "die summe deiner beiden zahlen ist: " << summe << "\n";
+	std::cout << "die differenz deiner beiden zahlen ist: " << differenz << "\n";
+	std::cout << "das produkt deiner beiden zahlen ist: " << produkt << "\n";
+
+	return 0; 
+
 
 }
+
