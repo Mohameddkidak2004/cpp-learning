@@ -1,0 +1,15 @@
+#include <iostream>
+
+int main()
+{
+	int zaehler = 1;
+
+	while (zaehler <= 5)
+	{
+		std::cout << "ich lerne C++!\n";
+
+		zaehler = zaehler + 1;
+	}
+	return 0;
+
+}
