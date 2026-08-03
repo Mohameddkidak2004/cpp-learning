@@ -29,5 +29,5 @@ int main()
 	alter10 = alter + 10;
 
 	std::cout << "Du bist in 10 Jahre " << alter10 << " Jahre alt\n";
-
+return 0;
 }
